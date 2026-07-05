@@ -2,39 +2,102 @@
 
 Backend API for the **My Aquarium** application.
 
-The project provides a REST API for managing aquariums, fish, plants, water parameters, maintenance schedules, and user accounts.
+Built with **Django**, **Django REST Framework**, and **PostgreSQL**.
+
+The backend provides secure REST APIs responsible for user authentication, aquarium management, fish and plant databases, water parameter history, and maintenance reminders.
 
 ---
 
-## 🚀 Tech Stack
+## ✨ Planned Features
+
+- JWT Authentication
+- User Management
+- Aquarium Management
+- Fish Encyclopedia
+- Plant Encyclopedia
+- Water Parameters
+- Measurement History
+- Maintenance Planner
+- Smart Stocking Recommendations
+
+---
+
+## 🛠 Tech Stack
 
 - Python
 - Django
 - Django REST Framework
-- PostgreSQL
+- PostgreSQL (Supabase)
 - JWT Authentication
-- Docker (planned)
+- Docker *(planned)*
 
 ---
 
-## 📦 Features
+## 🚀 Getting Started
 
-- User authentication
-- Aquarium management
-- Fish encyclopedia
-- Plant encyclopedia
-- Water parameter tracking
-- Maintenance reminders
-- Stocking recommendations
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run development server
+
+```bash
+python manage.py runserver
+```
 
 ---
 
-## 📌 Status
+## 📅 Roadmap
 
-🚧 In Development
+- 🔄 Project Setup
+- ⏳ Authentication
+- ⏳ Aquarium Module
+- ⏳ Fish Module
+- ⏳ Plant Module
+- ⏳ Water Parameters
+- ⏳ Maintenance
+- ⏳ Notifications
+
+---
+
+## 🔗 Frontend Repository
+
+Frontend:
+
+https://github.com/MarekBProgrammer/my-aquarium-frontend
+
+---
+
+## 👨‍💻 Author
+
+**Marek Babicz**
+
+Aquarist • Full Stack Developer • Lifelong learner
 
 ---
 
 ## 📄 License
 
-MIT
+MIT License
